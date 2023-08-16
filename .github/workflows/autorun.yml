@@ -18,6 +18,5 @@ jobs:
         git config --global user.email "lcdevilarte@hotmail.com"
         git config --global user.name "Luiz Carlos Devilarte"
         git add -A
-        ls -la
         git commit -m "Canais Atualizados!"
         git push
