@@ -10,7 +10,7 @@ on:
       - main
 
   # Permite executar este fluxo de trabalho manualmente na guia Ações
-  workflow_dispatch:
+  #workflow_dispatch:
 
 jobs:
     build:
