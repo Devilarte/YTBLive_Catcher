@@ -10,7 +10,7 @@ jobs:
   report:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
     - name: Run script file
       run: |
          chmod +x ytblive_catcher.sh
