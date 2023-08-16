@@ -1,28 +1,24 @@
 name: YouTube Live Catcher
 on:
-  push:
-  schedule:
-        - cron: '0 0/3 * * *'
-
-  permissions:
-    contents: write
-
   workflow_dispatch:
-
+  schedule:
+    - cron: '0 0/3 * * *'
+permissions:
+  contents: write
 jobs:
-  report:
+  scrape:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Run script file
-      run: |
-         chmod +x ytblive_catcher.sh
-         ./ytblive_catcher.sh
-      shell: bash
-    - name: Commit report
-      run: |
-        git config --global user.email "lcdevilarte@hotmail.com"
-        git config --global user.name "Luiz Carlos Devilarte"
-        git add -A
-        git commit -m "Canais Atualizados!"
-        git push
+      - name: Checar Repositório
+        uses: actions/checkout@v2
+        run: |
+           chmod +x ytblive_catcher.sh
+           ./ytblive_catcher.sh
+        shell: bash
+      - name: Commit report
+        run: |
+          git config --global user.email "lcdevilarte@hotmail.com"
+          git config --global user.name "Luiz Carlos Devilarte"
+          git add -A
+          git commit -m "Canais Atualizados!"
+          git push
