@@ -3,7 +3,7 @@
 #Este script atualiza outros os Scripts de Captura e Atualização dos Link de Canais do Youtube
 
 #Instalando Bibliotecas e Requisitos
-#python3 -m pip install requests
+python3 -m pip install requests
 
 ## LISTA DE CANAIS A SEREM CAPTURADOS
 python3 /scripts/BandNews.py > channels/BandNews.m3u8
