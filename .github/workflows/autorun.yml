@@ -9,7 +9,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checar Repositório
+      - name: Check out this repo
         uses: actions/checkout@v2
         run: |
            chmod +x ytblive_catcher.sh
