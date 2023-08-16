@@ -52,4 +52,4 @@ sleep 10
 #sleep 10
 
 #Log de Capturas
-date +'Última captura de links foi %A, %d de %B de %Y às %H:%M' > ytbcapt.log
+date +'Última captura de links foi %A, %d de %B de %Y às %H:%M' >> captures.log
