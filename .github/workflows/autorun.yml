@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0/3 * * *'
 
+  permissions:
+  contents: write
+
   pull_request:
     branches:
       - main
@@ -16,8 +19,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.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 }}
 
       - name: config
         run: |
