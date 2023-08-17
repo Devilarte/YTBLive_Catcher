@@ -14,13 +14,13 @@ def grab(url):
         response = requests.get(url).text
         if '.m3u8' not in response:
             if windows:
-                print('/home/runner/work/YTBLive_Catcher/YTBLive_Catcher/assets/offline.m3u8')
+                print('https://raw.githubusercontent.com/Devilarte/YTBLive_Catcher/main/assets/offline.ts?token=GHSAT0AAAAAACEUQISNYHILG4ZKZXDXRGBUZG5ZXLQ')
                 return
             #os.system(f'wget {url} -O temp.txt')
             os.system(f'curl "{url}" > temp.txt')
             response = ''.join(open('temp.txt').readlines())
             if '.m3u8' not in response:
-                print('/home/runner/work/YTBLive_Catcher/YTBLive_Catcher/assets/offline.m3u8')
+                print('https://raw.githubusercontent.com/Devilarte/YTBLive_Catcher/main/assets/offline.ts?token=GHSAT0AAAAAACEUQISNYHILG4ZKZXDXRGBUZG5ZXLQ')
                 return
     end = response.find('.m3u8') + 5
     tuner = 100
