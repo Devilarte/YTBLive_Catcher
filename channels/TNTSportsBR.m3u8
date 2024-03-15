@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1710547875/ei/Q4_0ZaCoKKmM2_gPwcev4AY/ip/172.183.132.70/id/GsNqF9L-PYY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-vgqsrnlz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f66HLNOsDkKiqN1BKozWZqCACbkbeu05BfKMT3l_zZ0/vprv/1/playlist_type/DVR/mh/xN/mm/44/mn/sn-vgqsrnlz/ms/lva/mv/u/mvi/3/pl/15/dover/11/pacing/0/keepalive/yes/mt/1710525569/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAM42BEWvhPSBlQ1HtSa2s7jUEK3qD8Fv4S0gruMP6LbUAiEA5_LfC28GMpgKGF9jkU1tQ7Je-vqrV8Vpp1y4Lvs41yE%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/APTiJQcwRAIgDlPh_tWjEVUG4JubXHk-iyJ2mfnuE9Uiq854sK9SEoYCIBxevHNTtZlfpK-oCz1rv88zPAOJkEqVexPJTXmpzaRm/playlist/index.m3u8
+https://raw.githubusercontent.com/Devilarte/Channel-Offline/main/offline.ts
